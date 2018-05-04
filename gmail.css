@@ -1,0 +1,74 @@
+header {
+	background-color: teal;
+	height: 3em;
+	display: flex;
+
+}
+button {
+	align-items: center;
+	height: 2em;
+	display: inline-block;
+	margin-top: .8em;
+	margin-right: 2em;
+	margin-left: 2em;
+	border-radius: 5px;
+}
+
+#tobox {
+	display: flex;
+	width: 100%;
+	background-color: teal;
+	align-items: center;
+	height: 20rem;
+	display: block;
+	margin-top: .8em;
+	margin-right: 2em;
+	border-radius: 5px;
+}
+
+#tobox input {
+	flex-direction: column;
+	width: 97%;
+	height: 2rem;
+	justify-content: flex-end;
+	align-items: space-around;
+	margin-bottom: 1rem;
+}
+
+#To {
+	width: 95%
+}
+
+#Cc {
+	width: 95%
+}
+
+#Bcc {
+	width: 95%
+}
+
+#Subject {
+	width: 93%;
+}
+
+#message {
+	width: 100%;
+	margin-left: 3px;
+	margin-right: 5px;
+	height: 20rem;
+	background-color: teal;
+
+}
+
+#message input {
+	height: 20rem;
+	width: 100%;
+	margin-left: 3px;
+	margin-right: 10px;
+}
+
+footer {
+	background-color: teal;
+	height: 3em;
+	display: flex;
+}
